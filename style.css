@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFD0E5;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+  padding-top: 2rem;
+}
+
+.hero {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    color: #CC8EEE;
+    font-size: 50px;
+}
+
+.section-text {
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: #FF86C8;
+    font-size: 25px;
+}
+
+.title {
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: #FF7AC2;
+    font-size: 25px;
+}
+
+.sub-title {
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: #FF86C8;
+    font-size: 24px;
+}
+
+.desc-text {
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: #FF97D0;
+    font-size: 22px;
+}
+
+.milestone-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 25px;
+    line-height: 150%;
+    padding: 0px 10px 0px 10px;
+    overflow: hidden;
+}
+
+.milestone-table th {
+    font-weight: 600;
+    color: #FF7AC2;
+    padding: 1rem;
+}
+
+.milestone-table td {
+    font-weight: 500;
+    padding: 1rem;
+    color: #FF7AC2;
+    vertical-align: top;
+}
+
+.footer-text {
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: #FFE7FD;
+    font-size: 20px;
+}
+
+.footer {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    color: #FFE7FD;
+    font-size: 30px;
+}
+
+.container {
+    padding: 0px 100px 0px 100px;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  align-items: center;
+  padding: 20px 100px 0 100px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+  margin-left: auto;
+}
+
+nav div img {
+  width: 200px;
+}
+
+nav ul li a {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  text-decoration: none;
+  color: #CC8EEE;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 10px 10px;
+  transition: all;
+  transition-duration: 300ms;
+}
+
+nav ul li a:hover {
+  color: #FF7AC2;
+}
+
+.menu-icon {
+  font-size: 28px;
+  display: none;
+}
+
+.home-container {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding-bottom: 80px;
+}
+
+.headings-text {
+  flex: 1 1 500px; 
+}
+
+.home-pict {
+  flex: 1 1 500px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.home-pict img {
+width: 120%;
+  max-width: none;
+  height: auto;
+  max-height: 500px; 
+  object-fit: contain;
+}
+
+.learn-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+.learn-container video {
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border: 20px;
+}
+
+/* Section Toys Gallery */
+#toys-gallery {
+  padding: 4rem 0rem;
+}
+
+.gallery-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Toy Cards Grid */
+.toy-cards {
+  background-color: white;
+  border-radius: 20px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.toy-cards:hover {
+  transform: translateY(-5px);
+}
+
+.toy-cards img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.toy-cards .title {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 22px;
+  color: #FF7AC2;
+  margin-bottom: 0.2rem;
+}
+
+.toy-cards .sub-title {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 20px;
+  color: #FF86C8;
+  margin-bottom: 0.2rem;
+}
+
+.toy-cards .desc-text {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 18px;
+  color: #FF97D0;
+  margin-bottom: 0.1rem;
+}
+
+/* Grid Layout */
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.headings-text {
+  grid-column: 1 / -1; 
+}
+
+/* Footer */
+footer {
+  background-color: #CEA8E3;
+  padding: 2rem 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0 100px;
+}
+
+.footer-text{
+  flex: 1 1 300px;
+  max-width: 340px;
+}
+
+.footer {
+  text-align: right;
+  flex: 1 1 300px;
+  max-width: 550px;
+}
