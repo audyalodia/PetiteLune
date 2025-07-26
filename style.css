@@ -205,11 +205,14 @@ width: 120%;
 }
 
 /* Section Toys Gallery */
-#toys-gallery {
+#toys {
   padding: 4rem 0rem;
 }
 
-.gallery-container {
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -267,13 +270,11 @@ width: 120%;
   margin-bottom: 0.1rem;
 }
 
-/* Grid Layout */
-.gallery-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+.headings-text1 {
+  margin-bottom: 2rem;
 }
 
+/* Grid Layout */
 .headings-text {
   grid-column: 1 / -1; 
 }
