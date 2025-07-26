@@ -197,6 +197,27 @@ Mata Kuliah: Pemrograman Web I
                 <h2 class="footer">We're here to help little ones grow— one small step at a time.</h2>
             </div>
            </footer>
-           <script src="script.js"></script>
+            <script>
+                const menuIcon = document.getElementById("menu-icon");
+                const menuList = document.getElementById("menu-list");
+                const btn = document.getElementById("topBtn");
+
+                window.onscroll = () => {
+                    if (document.documentElement.scrollTop > 100) {
+                    btn.style.display = "block";
+                    } 
+                    else {
+                    btn.style.display = "none";
+                    }
+                };
+
+                function scrollToTop() {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+
+                menuIcon.addEventListener("click", () => {
+                    menuList.classList.toggle("hidden");
+                });
+            </script>
     </body>
 </html>
