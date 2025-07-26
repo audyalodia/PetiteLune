@@ -279,6 +279,25 @@ width: 120%;
   grid-column: 1 / -1; 
 }
 
+/* Scroll Button */
+.scroll-top {
+  display: flex;
+  justify-content: flex-end;
+  padding: 50px 100px 20px 100px;
+}
+
+.scroll-top-btn iconify-icon {
+  font-size: 28px;
+  color: #CC8EEE;
+  background-color: #FFD0E5;
+}
+
+.scroll-top-btn {
+  border: none;
+  cursor: pointer;
+}
+
+
 /* Footer */
 footer {
   background-color: #CEA8E3;

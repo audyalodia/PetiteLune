@@ -1,6 +1,6 @@
 /* --- Max Width 1400px --- */
 @media screen and (max-width: 1400px) {
-  #menu-icon {
+  .menu-icon {
     display: none;
   }
 
