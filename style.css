@@ -159,6 +159,13 @@ nav ul li a:hover {
   display: none;
 }
 
+.audio-player-container {
+  position: absolute;
+  top: 120px; /* Sesuaikan dengan tinggi navbar kamu */
+  right: 100px;
+  z-index: 1000;
+}
+
 .home-container {
   padding-top: 50px;
   display: flex;
